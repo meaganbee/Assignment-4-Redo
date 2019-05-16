@@ -1,0 +1,109 @@
+body {
+  background: #EFEFEF;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 36px;
+  letter-spacing: 3px;
+ }
+
+h2 {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+h3 {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color:#A40000;
+}
+
+ul {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin-left: 20px;
+}
+
+h4 {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color:#A40000;
+}
+
+h5 {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color:#A40000;
+}
+
+h6 {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color:#A40000;
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color:#A40000;
+}
+
+.country {
+  background: #A40000;
+  padding: 10px;
+  margin: 5px;
+  width: 600px;
+  font-family: sans-serif;
+  font-weight: 300;
+  color: #FFFFFF;
+  margin-left: 20px;
+}
+
+.region {
+  background: #A40000;
+  padding: 10px;
+  margin: 5px;
+  width: 600px;
+  font-family: sans-serif;
+  font-weight: 300;
+  color: #FFFFFF;
+  margin-left: 20px;
+}
+
+button {
+  border: 4px solid #A40000;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 500;
+  color: #234EA2;
+  -webkit-box-shadow: 1px 0px 9px 0px;
+box-shadow: 1px 0px 9px 0px;
+}
+
+#map {
+  height: 700px;
+  width: 900px;
+  background: lightgray;
+  margin: 0 auto;
+}
+
+.marker {
+background-image: url('mymarker.png');
+background-size: cover;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+cursor: pointer;
+}
+
+.mapboxgl-popup {
+max-width: 200px;
+}
